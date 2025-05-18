@@ -1,4 +1,4 @@
-# 🧠 Aethera AI – Your AI-Powered Virtual Companion
+# 🧠Aethera AI : Your AI-Powered Virtual Companion
 
 **Aethera AI** is an intelligent, conversational virtual companion that adapts to your emotional, mental, and financial state in real-time. Whether you're seeking support, humor, or structured growth, Aethera delivers deeply personalized conversations and actionable roadmaps — redefining human-AI interaction for a more empowered you.
 
