@@ -30,28 +30,28 @@
 ## 🏗️ Project Structure
 
 ```
-Aethera-AI/
-│
-├── backend/                     ← FastAPI + AI engine
-│   ├── main.py                  ← API entry point
-│   ├── models.py                ← Data models (Pydantic)
-│   ├── routes/
-│   │   └── chatbot.py           ← /chat endpoint
-│   ├── services/
-│   │   └── ai_engine.py         ← GPT-4 logic
-│   └── requirements.txt         ← Python dependencies
-│
-├── frontend/                    ← React + Tailwind
-│   ├── public/                  ← Static assets
+Aethera AI/
+├── Frontend/
+│   ├── public/
 │   ├── src/
 │   │   ├── components/
-│   │   │   └── ChatBot.jsx      ← Chat UI
-│   │   ├── App.jsx              ← App wrapper
-│   │   └── main.jsx             ← React entry point
-│   ├── tailwind.config.js       ← Styling config
-│   └── package.json             ← Dependencies
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
 │
-└── README.md                    ← Project documentation
+├── Backend/
+│   ├── routes/
+│   ├── services/
+│   ├── main.py
+│   ├── models.py
+│   └── requirements.txt
+│
+└── README.md
 ```
 
 ---
