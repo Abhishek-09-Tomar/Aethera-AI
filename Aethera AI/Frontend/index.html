@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aethera AI</title>
+    <meta name="description"
+        content="Aethera AI - Your AI friend who connects with you emotionally, based on your region." />
+</head>
+
+<body>
+
+    <header>
+        <h1>Aethera AI</h1>
+        <p id="region-message"></p>
+    </header>
+
+    <main id="root">
+        <!-- React app mounts here -->
+    </main>
+
+    <footer>
+        &copy; 2025 Aethera AI. All rights reserved.
+    </footer>
+
+    <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+        // Simulate user region — in production, fetch this dynamically
+        const userRegion = "asia"; // Example: "asia", "africa", "europe", "china", "america"
+
+        const regionMessages = {
+            asia: "Your AI buddy who truly understands the emotions, traditions, and hustle of Asian life.",
+            africa: "Aethera AI – your soulful companion, walking beside you with the rhythm of African warmth and wisdom.",
+            europe: "Your calm and thoughtful AI companion – here to listen, reflect, and grow with you across every season.",
+            america: "From dreams to doubts, your AI friend is here for every late-night talk and early-morning inspiration.",
+            china: "Aethera AI is your trusted companion, harmonizing with the values of family, balance, and resilience."
+        };
+
+        const regionMessage = regionMessages[userRegion] || "Your AI friend who is always here to listen and support you, wherever you are.";
+
+        document.getElementById("region-message").textContent = regionMessage;
+    </script>
+
+</body>
+
+</html>
