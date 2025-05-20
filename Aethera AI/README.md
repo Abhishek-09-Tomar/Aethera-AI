@@ -19,7 +19,7 @@
 
 | Layer       | Stack                            |
 |-------------|----------------------------------|
-| **Frontend** | React, Tailwind CSS              |
+| **Frontend** | React, HTML, CSS, JS,            |
 | **Backend**  | FastAPI, Python, OpenAI GPT-4    |
 | **API Layer**| REST (FastAPI)                   |
 | **Tools**    | Git, VS Code, Cursor, IntelliJ   |
